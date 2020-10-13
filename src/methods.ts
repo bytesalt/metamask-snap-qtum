@@ -1,6 +1,7 @@
 import {Wallet} from "./wallet";
 import * as bitcoin from 'bitcoinjs-lib';
 
+
 async function deriveKeyPair(wallet: Wallet) {
   const appKey = await wallet.getAppKey();
   return bitcoin.bip32.fromSeed(Buffer.from(appKey));
@@ -21,5 +22,5 @@ export async function signMessage(wallet: Wallet, payload: string): Promise<stri
 
 export async function exportKeyPair(wallet: Wallet): Promise<string> {
   const keyPair = await deriveKeyPair(wallet);
-  return keyPair.toBase58();
+  return keyPair.toWIF();
 }

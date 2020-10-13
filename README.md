@@ -1,4 +1,4 @@
-# Metamask - Bitcoin
+# Metamask - Qtum
 
 ## Setup
 
@@ -22,3 +22,8 @@ yarn start
 ```
 
 Open `localhost:8081`, click `Connect` and approve the prompts from Metamask.
+
+
+### Fork Credits
+
+This package was forked from https://github.com/interlay/metamask-snap-bitcoin 

@@ -1,7 +1,7 @@
 {
-  "name": "metamask-snap-bitcoin",
-  "version": "1.0.0",
-  "description": "Metamask Bitcoin Plugin",
+  "name": "metamask-snap-qtum",
+  "version": "0.0.1",
+  "description": "Metamask Qtum Plugin",
   "main": "build/index.js",
   "dependencies": {
     "@types/node": "^12.12.35",
@@ -19,11 +19,11 @@
     "serve": "mm-snap serve",
     "start": "yarn run build && yarn run serve"
   },
-  "author": "Gregory Hill",
+  "author": "Gregory Hill and Bytesalt",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/interlay/metamask-snap-bitcoin.git"
+    "url": "git+https://github.com/bytesalt/metamask-snap-qtum.git"
   },
   "web3Wallet": {
     "bundle": {

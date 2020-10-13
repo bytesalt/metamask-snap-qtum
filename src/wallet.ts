@@ -7,7 +7,7 @@ export type State = {
     url: string;
 };
 
-export const TestnetConf: () => State = () => ({url: "https://blockstream.info/testnet/api/"});
+export const TestnetConf: () => State = () => ({url: "https://explorer.qtum.org/insight-api/"});
 
 // https://github.com/MetaMask/metamask-snaps-beta/wiki/Snaps-API#the-snaps-wallet-api
 export interface Wallet {
